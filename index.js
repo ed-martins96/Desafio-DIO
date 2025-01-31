@@ -1,23 +1,23 @@
 let nomeHeroi = "Goku"
-let xp = 10001
+let pdl = 10001
 let formaSaiyajin = ""
 
-if(xp <= 1000){
+if(pdl <= 1000){
     formaSaiyajin = "Kaioken"
-}else if(xp >= 1001 && xp <= 2000 ){
+}else if(pdl >= 1001 && pdl <= 2000 ){
     formaSaiyajin = "Kaioken x3"
-}else if(xp >= 2001 && xp <= 5000 ){
+}else if(pdl >= 2001 && pdl <= 5000 ){
     formaSaiyajin = "Kaioken x20"
-}else if(xp >= 5001 && xp <= 7000 ){
+}else if(pdl >= 5001 && pdl <= 7000 ){
     formaSaiyajin = "Super Saiyajin"
-}else if(xp >= 7001 && xp <= 8000 ){
+}else if(pdl >= 7001 && pdl <= 8000 ){
     formaSaiyajin = "Super Saiyajin Nível 2"
-}else if(xp >= 8001 && xp <= 9000 ){
+}else if(pdl >= 8001 && pdl <= 9000 ){
     formaSaiyajin = "Super Saiyajin Nível 3"
-}else if(xp >= 9001 && xp <= 10000 ){
+}else if(pdl >= 9001 && pdl <= 10000 ){
     formaSaiyajin = "Deus Super Saiyajin"
 }else{
-    formaSaiyajin = "Deus Super Saiyajin Blue"
+    formaSaiyajin = "Deus Super Saiyajin Super Saiyajin"
 }
 
 console.log("O guerreiro Goku está no nível: " + formaSaiyajin)
