@@ -1,23 +1,34 @@
-let nomeHeroi = "Goku"
-let pdl = 10001
-let formaSaiyajin = ""
+//Código feito com base em um dos meus personagens favoritos.
+//formaSaiyajin = Patente do Herói
+//PDL = Experiência do Herói
 
-if(pdl <= 1000){
-    formaSaiyajin = "Kaioken"
-}else if(pdl >= 1001 && pdl <= 2000 ){
-    formaSaiyajin = "Kaioken x3"
-}else if(pdl >= 2001 && pdl <= 5000 ){
-    formaSaiyajin = "Kaioken x20"
-}else if(pdl >= 5001 && pdl <= 7000 ){
-    formaSaiyajin = "Super Saiyajin"
-}else if(pdl >= 7001 && pdl <= 8000 ){
-    formaSaiyajin = "Super Saiyajin Nível 2"
-}else if(pdl >= 8001 && pdl <= 9000 ){
-    formaSaiyajin = "Super Saiyajin Nível 3"
-}else if(pdl >= 9001 && pdl <= 10000 ){
-    formaSaiyajin = "Deus Super Saiyajin"
-}else{
-    formaSaiyajin = "Deus Super Saiyajin Super Saiyajin"
+let heroi = "Goku"
+let formaSaiyajin = "Deus Super Saiyajin Super Saiyajin"
+
+switch(formaSaiyajin){
+    case "Kaioken":
+        console.log("PDL 10000")
+        break
+    case "Kaioken x3":
+        console.log("PDL 35000")
+        break
+    case "Kaioken x20":
+        console.log("PDL 180000")
+        break
+    case "Super Saiyajin":
+        console.log("PDL 1500000")
+        break
+    case "Super Saiyajin 2":
+        console.log("PDL 300000")
+        break
+    case "Super Saiyajin 3":
+        console.log("PDL 12000000")
+        break
+    case "Deus Super Saiyajin":
+        console.log("PDL 50000000")
+        break
+    default:
+    console.log("PDL 10000001")
 }
 
-console.log("O guerreiro Goku está no nível: " + formaSaiyajin)
+console.log("Goku está no nível: " + formaSaiyajin)
